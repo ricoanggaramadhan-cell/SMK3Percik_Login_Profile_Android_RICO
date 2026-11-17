@@ -1,0 +1,15 @@
+Berikut adalah penjelasan langkah demi langkah dari alur tersebut:
+1. Memulai Aplikasi
+ * Pengguna memulai proses dengan masuk ke aplikasi (Masuk Aplikasi).
+ * Pengguna kemudian dihadapkan pada sebuah pilihan atau keputusan: "Punya Akun?".
+2. Jika Belum Punya Akun (Cabang "Tidak")
+ * Jika pengguna belum memiliki akun, alur mengarah ke sisi Sistem untuk "Buat Akun baru".
+ * Pengguna diminta untuk "Masukan Email Dan Password Baru".
+ * Sistem kemudian akan "Menyimpan Data" tersebut.
+ * Setelah data tersimpan, sistem akan melanjutkan ke tahap "Display menu" (menampilkan menu utama aplikasi) dan proses selesai (ditandai dengan simbol lingkaran hitam ganda).
+3. Jika Sudah Punya Akun (Cabang "Ya")
+ * Jika pengguna sudah memiliki akun, pengguna diminta untuk "Masukkan Email Dan Password yang sudah terdaftar".
+ * Data yang dimasukkan kemudian akan diperiksa oleh sistem pada tahap "Check".
+ * Sistem akan memvalidasi melalui keputusan "Data Benar":
+   * Jika Tidak (Salah): Pengguna akan diminta untuk mengulangi proses memasukkan kembali email dan password yang terdaftar.
+   * Jika Ya (Benar): Sistem akan melanjutkan ke tahap "Display menu" dan proses selesai.

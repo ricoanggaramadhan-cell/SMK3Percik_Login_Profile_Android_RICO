@@ -1,0 +1,17 @@
+Penjelasan Alur Flowchart Sistem Aplikasi
+1. Tahap Awal (Mulai)
+ * Mulai (Buka Aplikasi): Proses dimulai ketika pengguna membuka aplikasi di perangkat mereka.
+2. Autentikasi Pengguna (Punya Akun?)
+Sistem akan memeriksa status kepemilikan akun pengguna:
+ * Jika Belum Punya Akun: Pengguna memilih opsi Klik Daftar, kemudian memasukkan data diri yang meliputi 1. Masukkan Nama, 2. Masukkan Email, dan 3. Masukkan Kata Sandi.
+ * Jika Sudah Punya Akun (atau klik Log in): Pengguna langsung memasukkan 1. Masukkan Email dan 2. Masukkan Kata Sandi, lalu menekan tombol Klik Masuk.
+3. Tampilan Utama
+ * Tampilan Profil Saya: Setelah proses login atau pendaftaran berhasil, pengguna akan diarahkan ke halaman profil untuk melihat informasi Nama dan Email.
+ * Pilih Menu: Pengguna kemudian dapat memilih berbagai opsi menu yang tersedia di dalam sistem.
+4. Opsi Menu & Selesai
+Pada bagian menu pilihan, terdapat beberapa fitur atau tindakan lanjutan yang dapat diakses oleh pengguna:
+ * Ubah Profil: Digunakan untuk memperbarui data diri pengguna.
+ * Pengaturan: Digunakan untuk mengatur konfigurasi atau preferensi aplikasi.
+ * Pusat Informasi: Digunakan untuk melihat informasi penting atau pusat bantuan.
+ * Keluar: Digunakan untuk keluar dari akun atau sesi aplikasi.
+ * Selesai: Seluruh rangkaian alur penggunaan aplikasi telah selesai.

@@ -1,0 +1,15 @@
+1. Alur Masuk (Login)
+Proses ini dilakukan oleh Pengguna yang sudah memiliki akun untuk masuk ke dalam sistem:
+ * Memulai Login: Pengguna mengakses sistem dan memilih opsi Login.
+ * Input Kredensial: Pengguna kemudian Masukkan Password akun mereka.
+ * Proses Autentifikasi: Sistem bersama dengan Admin melakukan Autentifikasi untuk memverifikasi apakah data kata sandi yang dimasukkan sudah benar dan valid.
+ * Akses Masuk: Jika proses autentifikasi berhasil, pengguna akan diarahkan masuk ke halaman Menu Profil.
+2. Alur Pendaftaran Akun Baru (Register)
+Proses ini dilakukan oleh pengguna baru yang belum memiliki akun di dalam sistem:
+ * Memulai Pendaftaran: Pengguna memilih menu Daftar.
+ * Pengisian Data: Pengguna Masukkan Email dan Password yang akan digunakan untuk akun baru.
+ * Verifikasi Data: Pengguna melakukan Konfirmasi ulang data pendaftaran untuk memastikan informasi yang dimasukkan sudah benar sebelum akun disimpan atau diaktifkan.
+3. Peran Pengelolaan Sistem oleh Admin
+Selain pengguna umum, Admin memiliki peran operasional di dalam sistem:
+ * Validasi Autentifikasi: Admin turut terlibat dalam proses Autentifikasi pengguna yang masuk ke sistem.
+ * Pengelolaan Data: Admin terhubung langsung dengan bagian Data Tersimpan untuk mengelola, memantau, atau mengatur penyimpanan data di dalam sistem.
