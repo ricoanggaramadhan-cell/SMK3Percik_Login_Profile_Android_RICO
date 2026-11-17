@@ -1,0 +1,19 @@
+Dokumen PDF yang Anda unggah menampilkan alur antarmuka pengguna (User Interface) untuk proses autentikasi dan manajemen akun, yang terdiri dari tiga halaman utama:
+1. Halaman Pendaftaran (Create Account)
+Halaman ini ditujukan bagi pengguna baru untuk membuat akun:
+ * Judul & Subjudul: Menampilkan teks utama "Create Account" dengan tautan navigasi "Already Registered? Log in here." bagi pengguna yang sudah memiliki akun.
+ * Kolom Input: Terdiri dari tiga bagian pengisian data, yaitu NAME (contoh terisi: rico), EMAIL (ricoangga@gmail.com), dan PASSWORD yang disamarkan dengan karakter bintang (******) demi keamanan.
+ * Tombol Aksi: Tombol "Sign up" di bagian bawah untuk memproses pendaftaran akun baru.
+2. Halaman Masuk (Login)
+Halaman ini digunakan oleh pengguna terdaftar untuk masuk ke dalam aplikasi:
+ * Judul & Subjudul: Menampilkan judul "Login" disertai instruksi singkat "Sign in to continue."
+ * Kolom Input: Meminta kredensial berupa EMAIL (ricoangga@gmail.com) dan PASSWORD (******).
+ * Tombol Aksi: Tombol "Login" untuk memverifikasi data dan masuk ke halaman utama atau profil.
+3. Halaman Profil Pengguna (Profil Saya)
+Halaman ini menampilkan informasi akun pengguna yang telah berhasil masuk serta menu pengaturan dasar:
+ * Header & Aksi Cepat: Menampilkan judul "Profil Saya" beserta opsi "Edit Profil" untuk mengubah data diri.
+ * Informasi Akun: Menampilkan detail data pengguna yang tersimpan, yaitu NAMA (Ricco) dan EMAIL ADDRESS (Ricoangga@gmail.com).
+ * Menu Navigasi: Menyediakan tiga pilihan menu di bagian bawah, yaitu Setting (pengaturan aplikasi), Information Center (pusat bantuan/informasi), dan Sign Out (keluar dari akun).
+Catatan Evaluasi Desain (UI/UX):
+ * Konsistensi Data & Penulisan: Terdapat sedikit perbedaan penulisan nama antara halaman pendaftaran (rico) dan halaman profil (Ricco), serta penggunaan bahasa campuran (Inggris pada halaman Create Account/Login dan Indonesia pada Profil Saya/NAMA). Menyeragamkan bahasa ke dalam satu bahasa penuh (misalnya seluruhnya Bahasa Indonesia atau Bahasa Inggris) akan membuat tampilan aplikasi terasa lebih konsisten.
+ * Fitur Tambahan yang Disarankan: Pada halaman Login, sebaiknya ditambahkan tautan "Lupa Kata Sandi?" (Forgot Password) agar pengguna memiliki opsi pemulihan akun jika lupa kata sandinya.
